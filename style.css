@@ -1,0 +1,80 @@
+body
+{
+	background-color: rgb(255, 255, 204);
+}
+#main_block
+{
+
+}
+header
+{
+	background: url('img/bottom_border.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header h1
+{
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	box-shadow: 0px 2px 6px black;
+	font-family: verdana,sans-sherif;
+	font-weight: normal;
+	font-size: 2em;
+}
+section
+{
+	background: url('img/bottom_border.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+}
+section h1
+{
+	font-family: verdana, sans-sherif;
+	text-decoration: underline;
+	font-weight: normal;
+}
+section p
+{
+	font-family: verdana, sans-sherif;
+}
+aside
+{
+	margin: 35px;
+	padding: 4px;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px black;
+	background-color: rgba(64, 64, 64, 0.7);
+	color: rgb(242, 242, 242);
+}
+aside p
+{
+	font-family: verdana, sans-sherif;
+}
+footer div ul
+{
+	list-style: none;
+}
+footer h1
+{
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	box-shadow: 0px 2px 6px black;
+	font-family: verdana,sans-sherif;
+	font-weight: normal;
+	font-size: 2em;
+}
+a
+{
+	color: black;
+	font-size: 2em;
+	text-decoration: none;
+	font-family: verdana, sans-sherif;
+}
+a:hover
+{
+	color: green;
+	font-weight: bold;
+	text-decoration: underline;
+}
